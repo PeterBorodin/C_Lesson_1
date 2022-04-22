@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hron\\.nuget\\packages\\": {}
+    "C:\\Users\\hroni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT\\4\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework.csproj",
+      "projectUniqueName": "D:\\OneDrive\\QA\\GIT\\GIT\\4\\C_Lesson_1\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework.csproj",
       "projectName": "C-Sharp-Lesson-1-Homework",
-      "projectPath": "D:\\GIT\\4\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework.csproj",
-      "packagesPath": "C:\\Users\\Hron\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT\\4\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework\\obj\\",
+      "projectPath": "D:\\OneDrive\\QA\\GIT\\GIT\\4\\C_Lesson_1\\C-Sharp-Lesson-1-Homework\\C-Sharp-Lesson-1-Homework.csproj",
+      "packagesPath": "C:\\Users\\hroni\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDrive\\QA\\GIT\\GIT\\4\\C_Lesson_1\\C-Sharp-Lesson-1-Homework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hroni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

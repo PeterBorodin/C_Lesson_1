@@ -29,7 +29,7 @@ namespace C_Sharp_Lesson_1_Homework
             else
                 Console.WriteLine("number {0} is odd", number);
             Console.ReadKey();
-        
+            
             //your code here
         }
         public void NumberDivideToFour(int number)
@@ -58,6 +58,7 @@ namespace C_Sharp_Lesson_1_Homework
             string result = (REM == 0) ? "number " + number + " is Divide to 4" : "number " + number + " does not divide to 4";
 
             Console.WriteLine(result);
+            Console.ReadKey();
 
         }
         public void DayOfWeek(string day)
@@ -78,34 +79,35 @@ namespace C_Sharp_Lesson_1_Homework
              * |default value |Wrong value! Please give a day of a week|
              * ---------------------------------------------------------
              */
-            
-            switch (day)
+            //day = monday
+            //day = 
+            switch (day.ToLower())
             {
-                case "Monday":
-                    Console.WriteLine("1");
+                case "monday":
+                    Console.WriteLine(1);
                     break;
-                case "Tuesday":
-                    Console.WriteLine("2");
+                case "tuesday":
+                    Console.WriteLine(2);
                     break;
-                case "Wednesday":
+                case "wednesday":
                     Console.WriteLine("3");
                     break;
-                case "Thursday":
+                case "thursday":
                     Console.WriteLine("4");
                     break;
-                case "Friday":
+                case "friday":
                     Console.WriteLine("5");
                     break;
-                case "Saturday":
+                case "saturday":
                     Console.WriteLine("6");
                     break;
-                case "Sunday":
+                case "sunday":
                     Console.WriteLine("7");
                     break;
                 default:
                     Console.WriteLine("Wrong value! Please give a day of a week");
                     break;
-
+                    Console.ReadKey();
 
                     //your code here
             }
@@ -122,18 +124,35 @@ namespace C_Sharp_Lesson_1_Homework
              * |  a  | a is a vowel      |
              * |  b  | b is a consonant  |
              * ---------------------------
+             * character = '%'
              */
-            if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'y' ||
-        character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U' || character == 'Y')
+            
+            if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'y')
 
                 Console.WriteLine("The {0} is Vowel", character);
-            else
+            else 
             {
                 Console.WriteLine("The {0} is Consonant", character);
             }
-
-
+            Console.ReadKey();
+            string vowel = "aeiouy";
+            if (Char.IsLetter(character))
+            {
+                Console.WriteLine(vowel.Contains(Char.ToLower(character)) ? character + " is a vowel" : character + " is a consonant");
+            }
+            else
+            {
+                Console.WriteLine(character + " Is not a letter");
+            }
             //your code here
+            character = Char.ToLower(character);
+            switch (true)
+            {
+                case bool result when vowel.Contains(character): Console.Write(character + " is a vowel"); break;
+                case bool result1 when Char.IsLetter(Char.ToLower(character)) && !vowel.Contains(character):
+                    Console.WriteLine(character + " is a consonant"); break;
+                default: Console.WriteLine(character + " is not a letter"); break;
+            }
 
         }
         public static void Main(String[] args)
@@ -153,7 +172,9 @@ namespace C_Sharp_Lesson_1_Homework
             //---------------------------------------
             homework.CheckLetterIfVowel('p');
             homework.CheckLetterIfVowel('i');
-
+            for (int i = 0; i <= 10; i++) {
+                Console.WriteLine(i);
+            }
         }
     }
 }
